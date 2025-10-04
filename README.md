@@ -47,7 +47,7 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
-### Windows Usage
+### On Windows
 
 If you're on Windows, specify the full path to the Gemini CLI:
 
