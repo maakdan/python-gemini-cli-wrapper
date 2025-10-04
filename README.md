@@ -6,7 +6,6 @@ A Python wrapper for Google's [Gemini CLI](https://github.com/google-gemini/gemi
 
 - 🚀 Async/await support with asyncio
 - 🖼️ Multimodal input (text and images)
-- 📦 Type-safe with Pydantic models
 - 🔄 Support for base64-encoded images and image URLs
 
 ## Prerequisites
