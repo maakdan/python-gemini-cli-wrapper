@@ -12,6 +12,7 @@ A Python wrapper for Google's [Gemini CLI](https://github.com/google-gemini/gemi
 
 - Python 3.7+
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) installed and configured
+- Pydantic
 
 ### Installing Gemini CLI
 
