@@ -8,6 +8,18 @@ A Python wrapper for Google's [Gemini CLI](https://github.com/google-gemini/gemi
 - 🖼️ Multimodal input (text and images)
 - 🔄 Support for base64-encoded images and image URLs
 
+## Project Structure
+
+```
+.
+├── my_gemini/
+│   ├── __init__.py
+│   ├── client.py      # Main client implementation
+│   └── models.py      # Pydantic models
+├── main.py            # Example usage
+└── README.md
+```
+
 ## Prerequisites
 
 - Python 3.7+
@@ -146,19 +158,7 @@ ChatContentPart(
 )
 ```
 
-## Project Structure
-
-```
-.
-├── my_gemini/
-│   ├── __init__.py
-│   ├── client.py      # Main client implementation
-│   └── models.py      # Pydantic models
-├── main.py            # Example usage
-└── README.md
-```
-
-## Error Handling
+### Error Handling
 
 The wrapper raises a `RuntimeError` if the Gemini CLI fails:
 
@@ -169,7 +169,7 @@ except RuntimeError as e:
     print(f"Error: {e}")
 ```
 
-## Logging
+### Logging
 
 Enable debug logging to see CLI execution details:
 
@@ -177,6 +177,14 @@ Enable debug logging to see CLI execution details:
 import logging
 logging.basicConfig(level=logging.DEBUG)
 ```
+
+## To-Do
+
+- [ ] Package and publish to PyPI
+
+## License
+
+MIT License
 
 ## Acknowledgments
 
